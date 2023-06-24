@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4991D3D-D21D-4FF1-B8A8-73E076FF828A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34AB7A36-51D7-4E33-B91F-AC5AF1D9B070"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POSBonjourPOC/Util/DeviceBrowser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "netServiceBrowserDidStopSearch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34AB7A36-51D7-4E33-B91F-AC5AF1D9B070 - 83a31af52abd11b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POSBonjourPOC.DeviceBrowser.publishDevice() -&gt; ()"
+                  moduleName = "POSBonjourPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousamaboujaouane/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/Dev/iOS/POSBonjourPOC/POSBonjourPOC/Util/DeviceBrowser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "34AB7A36-51D7-4E33-B91F-AC5AF1D9B070 - ac6733662a01964b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POSBonjourPOC.DeviceBrowser.netServiceBrowserDidStopSearch(__C.NSNetServiceBrowser) -&gt; ()"
+                  moduleName = "POSBonjourPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousamaboujaouane/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/Dev/iOS/POSBonjourPOC/POSBonjourPOC/Util/DeviceBrowser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
