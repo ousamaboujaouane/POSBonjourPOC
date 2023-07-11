@@ -14,6 +14,18 @@
 		24B6309C2A2E5D0A00E894FF /* DeviceBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6309B2A2E5D0A00E894FF /* DeviceBrowser.swift */; };
 		24DA2FB92A305B3D00305A3F /* MasterDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA2FB82A305B3D00305A3F /* MasterDeviceView.swift */; };
 		24DA2FBC2A305ECB00305A3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA2FBB2A305ECB00305A3F /* HomeView.swift */; };
+		604D96032A5E06B500626CE5 /* Bonjour in Frameworks */ = {isa = PBXBuildFile; productRef = 604D96022A5E06B500626CE5 /* Bonjour */; };
+		604D96102A5E06FE00626CE5 /* BonjourManager+Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D96042A5E06FE00626CE5 /* BonjourManager+Variables.swift */; };
+		604D96112A5E06FE00626CE5 /* POC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 604D96052A5E06FE00626CE5 /* POC.xcdatamodeld */; };
+		604D96122A5E06FE00626CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D96072A5E06FE00626CE5 /* ContentView.swift */; };
+		604D96132A5E06FE00626CE5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D96082A5E06FE00626CE5 /* CoreDataManager.swift */; };
+		604D96142A5E06FE00626CE5 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D96092A5E06FE00626CE5 /* Ingredient.swift */; };
+		604D96152A5E06FE00626CE5 /* BonjourManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960A2A5E06FE00626CE5 /* BonjourManager.swift */; };
+		604D96162A5E06FE00626CE5 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960B2A5E06FE00626CE5 /* MasterView.swift */; };
+		604D96172A5E06FE00626CE5 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960C2A5E06FE00626CE5 /* MasterViewModel.swift */; };
+		604D96182A5E06FE00626CE5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960D2A5E06FE00626CE5 /* Persistence.swift */; };
+		604D96192A5E06FE00626CE5 /* SlaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960E2A5E06FE00626CE5 /* SlaveView.swift */; };
+		604D961A2A5E06FE00626CE5 /* SlaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D960F2A5E06FE00626CE5 /* SlaveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,17 @@
 		24B6309D2A2E5E0900E894FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		24DA2FB82A305B3D00305A3F /* MasterDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDeviceView.swift; sourceTree = "<group>"; };
 		24DA2FBB2A305ECB00305A3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		604D96042A5E06FE00626CE5 /* BonjourManager+Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BonjourManager+Variables.swift"; sourceTree = "<group>"; };
+		604D96062A5E06FE00626CE5 /* POC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POC.xcdatamodel; sourceTree = "<group>"; };
+		604D96072A5E06FE00626CE5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		604D96082A5E06FE00626CE5 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		604D96092A5E06FE00626CE5 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		604D960A2A5E06FE00626CE5 /* BonjourManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourManager.swift; sourceTree = "<group>"; };
+		604D960B2A5E06FE00626CE5 /* MasterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		604D960C2A5E06FE00626CE5 /* MasterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		604D960D2A5E06FE00626CE5 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		604D960E2A5E06FE00626CE5 /* SlaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlaveView.swift; sourceTree = "<group>"; };
+		604D960F2A5E06FE00626CE5 /* SlaveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlaveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604D96032A5E06B500626CE5 /* Bonjour in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +82,8 @@
 		24B6308C2A2E5BF400E894FF /* POSBonjourPOC */ = {
 			isa = PBXGroup;
 			children = (
+				604D96202A5E080900626CE5 /* Model */,
+				604D961F2A5E07DB00626CE5 /* Manager */,
 				24DA2FBD2A3071C700305A3F /* Util */,
 				24DA2FBA2A305E9700305A3F /* Views */,
 				24B630912A2E5BF400E894FF /* Assets.xcassets */,
@@ -79,6 +105,9 @@
 		24DA2FBA2A305E9700305A3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				604D961C2A5E079800626CE5 /* Slave */,
+				604D961B2A5E077F00626CE5 /* Master */,
+				604D96072A5E06FE00626CE5 /* ContentView.swift */,
 				24DA2FBB2A305ECB00305A3F /* HomeView.swift */,
 				24DA2FB82A305B3D00305A3F /* MasterDeviceView.swift */,
 				24B6308F2A2E5BF400E894FF /* SlaveDeviceView.swift */,
@@ -92,6 +121,60 @@
 				24B6309B2A2E5D0A00E894FF /* DeviceBrowser.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		604D961B2A5E077F00626CE5 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				604D960B2A5E06FE00626CE5 /* MasterView.swift */,
+				604D960C2A5E06FE00626CE5 /* MasterViewModel.swift */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		604D961C2A5E079800626CE5 /* Slave */ = {
+			isa = PBXGroup;
+			children = (
+				604D960E2A5E06FE00626CE5 /* SlaveView.swift */,
+				604D960F2A5E06FE00626CE5 /* SlaveViewModel.swift */,
+			);
+			path = Slave;
+			sourceTree = "<group>";
+		};
+		604D961D2A5E07A500626CE5 /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				604D960A2A5E06FE00626CE5 /* BonjourManager.swift */,
+				604D96042A5E06FE00626CE5 /* BonjourManager+Variables.swift */,
+			);
+			path = Bonjour;
+			sourceTree = "<group>";
+		};
+		604D961E2A5E07BB00626CE5 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				604D96052A5E06FE00626CE5 /* POC.xcdatamodeld */,
+				604D960D2A5E06FE00626CE5 /* Persistence.swift */,
+				604D96082A5E06FE00626CE5 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		604D961F2A5E07DB00626CE5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				604D961D2A5E07A500626CE5 /* Bonjour */,
+				604D961E2A5E07BB00626CE5 /* CoreDataManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		604D96202A5E080900626CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				604D96092A5E06FE00626CE5 /* Ingredient.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +194,7 @@
 			);
 			name = POSBonjourPOC;
 			packageProductDependencies = (
+				604D96022A5E06B500626CE5 /* Bonjour */,
 			);
 			productName = POSBonjourPOC;
 			productReference = 24B6308A2A2E5BF400E894FF /* POSBonjourPOC.app */;
@@ -141,6 +225,7 @@
 			);
 			mainGroup = 24B630812A2E5BF400E894FF;
 			packageReferences = (
+				604D96012A5E06B500626CE5 /* XCRemoteSwiftPackageReference "Bonjour" */,
 			);
 			productRefGroup = 24B6308B2A2E5BF400E894FF /* Products */;
 			projectDirPath = "";
@@ -170,9 +255,20 @@
 			files = (
 				24DA2FB92A305B3D00305A3F /* MasterDeviceView.swift in Sources */,
 				24B6309C2A2E5D0A00E894FF /* DeviceBrowser.swift in Sources */,
+				604D96142A5E06FE00626CE5 /* Ingredient.swift in Sources */,
+				604D96182A5E06FE00626CE5 /* Persistence.swift in Sources */,
+				604D96152A5E06FE00626CE5 /* BonjourManager.swift in Sources */,
+				604D96122A5E06FE00626CE5 /* ContentView.swift in Sources */,
+				604D961A2A5E06FE00626CE5 /* SlaveViewModel.swift in Sources */,
 				24B630902A2E5BF400E894FF /* SlaveDeviceView.swift in Sources */,
+				604D96172A5E06FE00626CE5 /* MasterViewModel.swift in Sources */,
+				604D96162A5E06FE00626CE5 /* MasterView.swift in Sources */,
 				24DA2FBC2A305ECB00305A3F /* HomeView.swift in Sources */,
 				24B6308E2A2E5BF400E894FF /* POSBonjourPOCApp.swift in Sources */,
+				604D96132A5E06FE00626CE5 /* CoreDataManager.swift in Sources */,
+				604D96102A5E06FE00626CE5 /* BonjourManager+Variables.swift in Sources */,
+				604D96112A5E06FE00626CE5 /* POC.xcdatamodeld in Sources */,
+				604D96192A5E06FE00626CE5 /* SlaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +483,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		604D96012A5E06B500626CE5 /* XCRemoteSwiftPackageReference "Bonjour" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eugenebokhan/Bonjour.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		604D96022A5E06B500626CE5 /* Bonjour */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604D96012A5E06B500626CE5 /* XCRemoteSwiftPackageReference "Bonjour" */;
+			productName = Bonjour;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		604D96052A5E06FE00626CE5 /* POC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				604D96062A5E06FE00626CE5 /* POC.xcdatamodel */,
+			);
+			currentVersion = 604D96062A5E06FE00626CE5 /* POC.xcdatamodel */;
+			path = POC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 24B630822A2E5BF400E894FF /* Project object */;
 }
